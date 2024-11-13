@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable publisher[0m
+[100%] Built target publisher
+-- Install configuration: ""
+-- Installing: /home/sachinb/ros2_ws/install/task1cpp/lib/task1cpp/publisher
+-- Set runtime path of "/home/sachinb/ros2_ws/install/task1cpp/lib/task1cpp/publisher" to ""
+-- Up-to-date: /home/sachinb/ros2_ws/install/task1cpp/share/ament_index/resource_index/package_run_dependencies/task1cpp
+-- Up-to-date: /home/sachinb/ros2_ws/install/task1cpp/share/ament_index/resource_index/parent_prefix_path/task1cpp
+-- Up-to-date: /home/sachinb/ros2_ws/install/task1cpp/share/task1cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sachinb/ros2_ws/install/task1cpp/share/task1cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sachinb/ros2_ws/install/task1cpp/share/task1cpp/environment/path.sh
+-- Up-to-date: /home/sachinb/ros2_ws/install/task1cpp/share/task1cpp/environment/path.dsv
+-- Up-to-date: /home/sachinb/ros2_ws/install/task1cpp/share/task1cpp/local_setup.bash
+-- Up-to-date: /home/sachinb/ros2_ws/install/task1cpp/share/task1cpp/local_setup.sh
+-- Up-to-date: /home/sachinb/ros2_ws/install/task1cpp/share/task1cpp/local_setup.zsh
+-- Up-to-date: /home/sachinb/ros2_ws/install/task1cpp/share/task1cpp/local_setup.dsv
+-- Installing: /home/sachinb/ros2_ws/install/task1cpp/share/task1cpp/package.dsv
+-- Up-to-date: /home/sachinb/ros2_ws/install/task1cpp/share/ament_index/resource_index/packages/task1cpp
+-- Up-to-date: /home/sachinb/ros2_ws/install/task1cpp/share/task1cpp/cmake/task1cppConfig.cmake
+-- Up-to-date: /home/sachinb/ros2_ws/install/task1cpp/share/task1cpp/cmake/task1cppConfig-version.cmake
+-- Up-to-date: /home/sachinb/ros2_ws/install/task1cpp/share/task1cpp/package.xml

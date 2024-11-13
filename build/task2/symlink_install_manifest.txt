@@ -1,0 +1,15 @@
+/home/sachinb/ros2_ws/install/task2/share/ament_index/resource_index/package_run_dependencies/task2
+/home/sachinb/ros2_ws/install/task2/share/ament_index/resource_index/parent_prefix_path/task2
+/home/sachinb/ros2_ws/install/task2/share/task2/environment/ament_prefix_path.sh
+/home/sachinb/ros2_ws/install/task2/share/task2/environment/ament_prefix_path.dsv
+/home/sachinb/ros2_ws/install/task2/share/task2/environment/path.sh
+/home/sachinb/ros2_ws/install/task2/share/task2/environment/path.dsv
+/home/sachinb/ros2_ws/install/task2/share/task2/local_setup.bash
+/home/sachinb/ros2_ws/install/task2/share/task2/local_setup.sh
+/home/sachinb/ros2_ws/install/task2/share/task2/local_setup.zsh
+/home/sachinb/ros2_ws/install/task2/share/task2/local_setup.dsv
+/home/sachinb/ros2_ws/install/task2/share/task2/package.dsv
+/home/sachinb/ros2_ws/install/task2/share/ament_index/resource_index/packages/task2
+/home/sachinb/ros2_ws/install/task2/share/task2/cmake/task2Config.cmake
+/home/sachinb/ros2_ws/install/task2/share/task2/cmake/task2Config-version.cmake
+/home/sachinb/ros2_ws/install/task2/share/task2/package.xml
