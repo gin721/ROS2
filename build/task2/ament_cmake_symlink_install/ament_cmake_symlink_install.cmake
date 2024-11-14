@@ -310,6 +310,9 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install("TARGETS" "node1" "DESTINATION" "lib/task2")
+include("/home/sachinb/ros2_ws/build/task2/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
 # install(FILES "/home/sachinb/ros2_ws/build/task2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/task2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/sachinb/ros2_ws/src/task2" FILES "/home/sachinb/ros2_ws/build/task2/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/task2" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

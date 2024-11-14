@@ -31,6 +31,10 @@ ros2 pkg create --build-type ament_python --license Apache-2.0 <package_name>
 ```
 ros2 pkg create --build-type ament_python --license Apache-2.0 --node-name <nodoe_name> <package_name>
 ```
+#### Creating a ros2 package with dependencies
+```
+ros2 pkg create --build-type ament_cmake --license Apache-2.0 <package_name> --dependencies rclcpp example_interfaces
+```
 #### Run a node from a package 
 ```
 ros2 run <package_name> <node_name>

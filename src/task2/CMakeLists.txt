@@ -8,6 +8,18 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+
+#creating executable and adding target dependencies
+add_executable(node1 src/node1.cpp)
+ament_target_dependencies(node1 rclcpp sensor_msgs geometry_msgs)
+
+#should be edited to install the executable in a particular destination
+install(TARGETS
+  node1
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

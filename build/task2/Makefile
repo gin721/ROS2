@@ -197,6 +197,43 @@ task2_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task2_uninstall.dir/build.make CMakeFiles/task2_uninstall.dir/build
 .PHONY : task2_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named node1
+
+# Build rule for target.
+node1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 node1
+.PHONY : node1
+
+# fast build rule for target.
+node1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node1.dir/build.make CMakeFiles/node1.dir/build
+.PHONY : node1/fast
+
+src/node1.o: src/node1.cpp.o
+.PHONY : src/node1.o
+
+# target to build an object file
+src/node1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node1.dir/build.make CMakeFiles/node1.dir/src/node1.cpp.o
+.PHONY : src/node1.cpp.o
+
+src/node1.i: src/node1.cpp.i
+.PHONY : src/node1.i
+
+# target to preprocess a source file
+src/node1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node1.dir/build.make CMakeFiles/node1.dir/src/node1.cpp.i
+.PHONY : src/node1.cpp.i
+
+src/node1.s: src/node1.cpp.s
+.PHONY : src/node1.s
+
+# target to generate assembly for a file
+src/node1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/node1.dir/build.make CMakeFiles/node1.dir/src/node1.cpp.s
+.PHONY : src/node1.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... task2_uninstall"
 	@echo "... uninstall"
+	@echo "... node1"
+	@echo "... src/node1.o"
+	@echo "... src/node1.i"
+	@echo "... src/node1.s"
 .PHONY : help
 
 

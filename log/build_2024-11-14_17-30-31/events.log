@@ -1,0 +1,253 @@
+[0.000000] (-) TimerEvent: {}
+[0.000485] (task1) JobQueued: {'identifier': 'task1', 'dependencies': OrderedDict()}
+[0.000786] (task2) JobQueued: {'identifier': 'task2', 'dependencies': OrderedDict()}
+[0.000817] (task1) JobStarted: {'identifier': 'task1'}
+[0.009856] (task2) JobStarted: {'identifier': 'task2'}
+[0.099697] (-) TimerEvent: {}
+[0.199951] (-) TimerEvent: {}
+[0.300205] (-) TimerEvent: {}
+[0.356899] (task2) JobProgress: {'identifier': 'task2', 'progress': 'cmake'}
+[0.357245] (task2) Command: {'cmd': ['/usr/bin/cmake', '/home/sachinb/ros2_ws/src/task2', '-DCMAKE_INSTALL_PREFIX=/home/sachinb/ros2_ws/install/task2'], 'cwd': '/home/sachinb/ros2_ws/build/task2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sachinb'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sachinb'), ('OLDPWD', '/home/sachinb'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1372'), ('SYSTEMD_EXEC_PID', '1679'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14507'), ('COLCON_PREFIX_PATH', '/home/sachinb/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sachinb'), ('JOURNAL_STREAM', '8:17502'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sachinb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sachinb:@/tmp/.ICE-unix/1647,unix/sachinb:/tmp/.ICE-unix/1647'), ('INVOCATION_ID', '2179e0d0a5664e0f9ae78d0f9165deaf'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sachinb/ros2_ws/install/task2:/home/sachinb/ros2_ws/install/task1cpp:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7c50705e-a450-4d04-86ba-0c8c0deea597'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sachinb/ros2_ws/build/task2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sachinb/ros2_ws/build/task1:/home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sachinb/ros2_ws/install/task2:/home/sachinb/ros2_ws/install/task1cpp:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble')]), 'shell': False}
+[0.400325] (-) TimerEvent: {}
+[0.417311] (task2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.482829] (task2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.495286] (task2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500376] (-) TimerEvent: {}
+[0.572703] (task2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.582631] (task2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.582918] (task2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.583427] (task2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.587173] (task2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600472] (-) TimerEvent: {}
+[0.675180] (task2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.695516] (task2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.696040] (task2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.697096] (task2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.699844] (task2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700539] (-) TimerEvent: {}
+[0.800804] (-) TimerEvent: {}
+[0.830937] (task1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task1', 'build', '--build-base', '/home/sachinb/ros2_ws/build/task1/build', 'install', '--record', '/home/sachinb/ros2_ws/build/task1/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sachinb/ros2_ws/src/task1', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sachinb', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sachinb', 'OLDPWD': '/home/sachinb', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1372', 'SYSTEMD_EXEC_PID': '1679', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14507', 'COLCON_PREFIX_PATH': '/home/sachinb/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'sachinb', 'JOURNAL_STREAM': '8:17502', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sachinb', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sachinb:@/tmp/.ICE-unix/1647,unix/sachinb:/tmp/.ICE-unix/1647', 'INVOCATION_ID': '2179e0d0a5664e0f9ae78d0f9165deaf', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sachinb/ros2_ws/install/task2:/home/sachinb/ros2_ws/install/task1cpp:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7c50705e-a450-4d04-86ba-0c8c0deea597', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sachinb/ros2_ws/build/task1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sachinb/ros2_ws/build/task1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages:/home/sachinb/ros2_ws/build/task1:/home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sachinb/ros2_ws/install/task2:/home/sachinb/ros2_ws/install/task1cpp'}, 'shell': False}
+[0.888794] (task2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.900909] (-) TimerEvent: {}
+[0.991997] (task2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.000994] (-) TimerEvent: {}
+[1.039966] (task2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.045441] (task2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.055220] (task2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.069985] (task2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.089789] (task2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101097] (-) TimerEvent: {}
+[1.143893] (task2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.146742] (task2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.158049] (task1) StdoutLine: {'line': b'running egg_info\n'}
+[1.158769] (task1) StdoutLine: {'line': b'creating ../../build/task1/task1.egg-info\n'}
+[1.159022] (task1) StdoutLine: {'line': b'writing ../../build/task1/task1.egg-info/PKG-INFO\n'}
+[1.159326] (task1) StdoutLine: {'line': b'writing dependency_links to ../../build/task1/task1.egg-info/dependency_links.txt\n'}
+[1.159553] (task1) StdoutLine: {'line': b'writing entry points to ../../build/task1/task1.egg-info/entry_points.txt\n'}
+[1.159794] (task1) StdoutLine: {'line': b'writing requirements to ../../build/task1/task1.egg-info/requires.txt\n'}
+[1.159941] (task1) StdoutLine: {'line': b'writing top-level names to ../../build/task1/task1.egg-info/top_level.txt\n'}
+[1.160169] (task1) StdoutLine: {'line': b"writing manifest file '../../build/task1/task1.egg-info/SOURCES.txt'\n"}
+[1.162587] (task1) StdoutLine: {'line': b"reading manifest file '../../build/task1/task1.egg-info/SOURCES.txt'\n"}
+[1.163494] (task1) StdoutLine: {'line': b"writing manifest file '../../build/task1/task1.egg-info/SOURCES.txt'\n"}
+[1.163734] (task1) StdoutLine: {'line': b'running build\n'}
+[1.163934] (task1) StdoutLine: {'line': b'running build_py\n'}
+[1.164123] (task1) StdoutLine: {'line': b'creating /home/sachinb/ros2_ws/build/task1/build\n'}
+[1.164302] (task1) StdoutLine: {'line': b'creating /home/sachinb/ros2_ws/build/task1/build/lib\n'}
+[1.164487] (task1) StdoutLine: {'line': b'creating /home/sachinb/ros2_ws/build/task1/build/lib/task1\n'}
+[1.164667] (task1) StdoutLine: {'line': b'copying task1/template_node.py -> /home/sachinb/ros2_ws/build/task1/build/lib/task1\n'}
+[1.164840] (task1) StdoutLine: {'line': b'copying task1/__init__.py -> /home/sachinb/ros2_ws/build/task1/build/lib/task1\n'}
+[1.164984] (task1) StdoutLine: {'line': b'copying task1/node1.py -> /home/sachinb/ros2_ws/build/task1/build/lib/task1\n'}
+[1.165131] (task1) StdoutLine: {'line': b'copying task1/node2.py -> /home/sachinb/ros2_ws/build/task1/build/lib/task1\n'}
+[1.165314] (task1) StdoutLine: {'line': b'running install\n'}
+[1.165590] (task1) StdoutLine: {'line': b'running install_lib\n'}
+[1.166433] (task1) StdoutLine: {'line': b'creating /home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages/task1\n'}
+[1.166646] (task1) StdoutLine: {'line': b'copying /home/sachinb/ros2_ws/build/task1/build/lib/task1/template_node.py -> /home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages/task1\n'}
+[1.166829] (task1) StdoutLine: {'line': b'copying /home/sachinb/ros2_ws/build/task1/build/lib/task1/__init__.py -> /home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages/task1\n'}
+[1.167026] (task1) StdoutLine: {'line': b'copying /home/sachinb/ros2_ws/build/task1/build/lib/task1/node1.py -> /home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages/task1\n'}
+[1.167200] (task1) StdoutLine: {'line': b'copying /home/sachinb/ros2_ws/build/task1/build/lib/task1/node2.py -> /home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages/task1\n'}
+[1.167804] (task1) StdoutLine: {'line': b'byte-compiling /home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages/task1/template_node.py to template_node.cpython-310.pyc\n'}
+[1.168388] (task1) StdoutLine: {'line': b'byte-compiling /home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages/task1/__init__.py to __init__.cpython-310.pyc\n'}
+[1.168645] (task1) StdoutLine: {'line': b'byte-compiling /home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages/task1/node1.py to node1.cpython-310.pyc\n'}
+[1.169228] (task1) StdoutLine: {'line': b'byte-compiling /home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages/task1/node2.py to node2.cpython-310.pyc\n'}
+[1.169739] (task1) StdoutLine: {'line': b'running install_data\n'}
+[1.169953] (task1) StdoutLine: {'line': b'creating /home/sachinb/ros2_ws/install/task1/share/ament_index\n'}
+[1.170139] (task1) StdoutLine: {'line': b'creating /home/sachinb/ros2_ws/install/task1/share/ament_index/resource_index\n'}
+[1.170311] (task1) StdoutLine: {'line': b'creating /home/sachinb/ros2_ws/install/task1/share/ament_index/resource_index/packages\n'}
+[1.170519] (task1) StdoutLine: {'line': b'copying resource/task1 -> /home/sachinb/ros2_ws/install/task1/share/ament_index/resource_index/packages\n'}
+[1.170657] (task1) StdoutLine: {'line': b'copying package.xml -> /home/sachinb/ros2_ws/install/task1/share/task1\n'}
+[1.170799] (task1) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.172811] (task1) StdoutLine: {'line': b'Copying ../../build/task1/task1.egg-info to /home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages/task1-0.0.0-py3.10.egg-info\n'}
+[1.173835] (task1) StdoutLine: {'line': b'running install_scripts\n'}
+[1.198078] (task1) StdoutLine: {'line': b'Installing node1 script to /home/sachinb/ros2_ws/install/task1/lib/task1\n'}
+[1.198370] (task1) StdoutLine: {'line': b'Installing node2 script to /home/sachinb/ros2_ws/install/task1/lib/task1\n'}
+[1.198573] (task1) StdoutLine: {'line': b'Installing template_python script to /home/sachinb/ros2_ws/install/task1/lib/task1\n'}
+[1.198946] (task1) StdoutLine: {'line': b"writing list of installed files to '/home/sachinb/ros2_ws/build/task1/install.log'\n"}
+[1.201193] (-) TimerEvent: {}
+[1.229685] (task1) CommandEnded: {'returncode': 0}
+[1.241961] (task1) JobEnded: {'identifier': 'task1', 'rc': 0}
+[1.244817] (task2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.277289] (task2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.301280] (-) TimerEvent: {}
+[1.327431] (task2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.337030] (task2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.401395] (-) TimerEvent: {}
+[1.415772] (task2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.416196] (task2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.494313] (task2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.495672] (task2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.501465] (-) TimerEvent: {}
+[1.564087] (task2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.601544] (-) TimerEvent: {}
+[1.608290] (task2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.701649] (-) TimerEvent: {}
+[1.702769] (task2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.702976] (task2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.703066] (task2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.703711] (task2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.704733] (task2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.704859] (task2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.705305] (task2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.706674] (task2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.717317] (task2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.718974] (task2) StdoutLine: {'line': b'-- Build files have been written to: /home/sachinb/ros2_ws/build/task2\n'}
+[1.728268] (task2) CommandEnded: {'returncode': 0}
+[1.728971] (task2) JobProgress: {'identifier': 'task2', 'progress': 'build'}
+[1.730368] (task2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sachinb/ros2_ws/build/task2', '--', '-j8', '-l8'], 'cwd': '/home/sachinb/ros2_ws/build/task2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sachinb'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sachinb'), ('OLDPWD', '/home/sachinb'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1372'), ('SYSTEMD_EXEC_PID', '1679'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14507'), ('COLCON_PREFIX_PATH', '/home/sachinb/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sachinb'), ('JOURNAL_STREAM', '8:17502'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sachinb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sachinb:@/tmp/.ICE-unix/1647,unix/sachinb:/tmp/.ICE-unix/1647'), ('INVOCATION_ID', '2179e0d0a5664e0f9ae78d0f9165deaf'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sachinb/ros2_ws/install/task2:/home/sachinb/ros2_ws/install/task1cpp:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7c50705e-a450-4d04-86ba-0c8c0deea597'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sachinb/ros2_ws/build/task2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sachinb/ros2_ws/build/task1:/home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sachinb/ros2_ws/install/task2:/home/sachinb/ros2_ws/install/task1cpp:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble')]), 'shell': False}
+[1.781511] (task2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/node1.dir/src/node1.cpp.o\x1b[0m\n'}
+[1.801759] (-) TimerEvent: {}
+[1.902096] (-) TimerEvent: {}
+[2.002455] (-) TimerEvent: {}
+[2.102813] (-) TimerEvent: {}
+[2.203185] (-) TimerEvent: {}
+[2.303567] (-) TimerEvent: {}
+[2.403939] (-) TimerEvent: {}
+[2.504303] (-) TimerEvent: {}
+[2.604685] (-) TimerEvent: {}
+[2.705052] (-) TimerEvent: {}
+[2.805425] (-) TimerEvent: {}
+[2.905789] (-) TimerEvent: {}
+[3.006156] (-) TimerEvent: {}
+[3.106539] (-) TimerEvent: {}
+[3.206908] (-) TimerEvent: {}
+[3.307272] (-) TimerEvent: {}
+[3.407654] (-) TimerEvent: {}
+[3.508020] (-) TimerEvent: {}
+[3.608399] (-) TimerEvent: {}
+[3.708764] (-) TimerEvent: {}
+[3.809133] (-) TimerEvent: {}
+[3.909517] (-) TimerEvent: {}
+[4.009885] (-) TimerEvent: {}
+[4.110254] (-) TimerEvent: {}
+[4.210634] (-) TimerEvent: {}
+[4.310980] (-) TimerEvent: {}
+[4.411333] (-) TimerEvent: {}
+[4.511712] (-) TimerEvent: {}
+[4.612083] (-) TimerEvent: {}
+[4.712420] (-) TimerEvent: {}
+[4.812779] (-) TimerEvent: {}
+[4.913148] (-) TimerEvent: {}
+[5.013538] (-) TimerEvent: {}
+[5.113908] (-) TimerEvent: {}
+[5.214281] (-) TimerEvent: {}
+[5.314658] (-) TimerEvent: {}
+[5.415031] (-) TimerEvent: {}
+[5.515412] (-) TimerEvent: {}
+[5.615778] (-) TimerEvent: {}
+[5.716150] (-) TimerEvent: {}
+[5.816537] (-) TimerEvent: {}
+[5.916901] (-) TimerEvent: {}
+[6.017266] (-) TimerEvent: {}
+[6.117638] (-) TimerEvent: {}
+[6.218005] (-) TimerEvent: {}
+[6.318381] (-) TimerEvent: {}
+[6.418744] (-) TimerEvent: {}
+[6.519105] (-) TimerEvent: {}
+[6.619455] (-) TimerEvent: {}
+[6.719807] (-) TimerEvent: {}
+[6.820156] (-) TimerEvent: {}
+[6.920522] (-) TimerEvent: {}
+[7.020888] (-) TimerEvent: {}
+[7.121262] (-) TimerEvent: {}
+[7.221651] (-) TimerEvent: {}
+[7.322014] (-) TimerEvent: {}
+[7.422388] (-) TimerEvent: {}
+[7.522748] (-) TimerEvent: {}
+[7.623117] (-) TimerEvent: {}
+[7.723499] (-) TimerEvent: {}
+[7.823862] (-) TimerEvent: {}
+[7.924225] (-) TimerEvent: {}
+[8.024600] (-) TimerEvent: {}
+[8.124973] (-) TimerEvent: {}
+[8.225330] (-) TimerEvent: {}
+[8.325699] (-) TimerEvent: {}
+[8.426059] (-) TimerEvent: {}
+[8.526419] (-) TimerEvent: {}
+[8.626776] (-) TimerEvent: {}
+[8.727133] (-) TimerEvent: {}
+[8.827506] (-) TimerEvent: {}
+[8.927864] (-) TimerEvent: {}
+[9.028231] (-) TimerEvent: {}
+[9.128519] (-) TimerEvent: {}
+[9.228788] (-) TimerEvent: {}
+[9.329074] (-) TimerEvent: {}
+[9.429352] (-) TimerEvent: {}
+[9.529620] (-) TimerEvent: {}
+[9.629887] (-) TimerEvent: {}
+[9.730164] (-) TimerEvent: {}
+[9.830462] (-) TimerEvent: {}
+[9.930737] (-) TimerEvent: {}
+[10.031005] (-) TimerEvent: {}
+[10.131273] (-) TimerEvent: {}
+[10.231557] (-) TimerEvent: {}
+[10.331832] (-) TimerEvent: {}
+[10.432105] (-) TimerEvent: {}
+[10.532387] (-) TimerEvent: {}
+[10.632679] (-) TimerEvent: {}
+[10.732953] (-) TimerEvent: {}
+[10.833402] (-) TimerEvent: {}
+[10.933670] (-) TimerEvent: {}
+[11.033939] (-) TimerEvent: {}
+[11.134209] (-) TimerEvent: {}
+[11.234486] (-) TimerEvent: {}
+[11.334755] (-) TimerEvent: {}
+[11.435032] (-) TimerEvent: {}
+[11.535305] (-) TimerEvent: {}
+[11.635582] (-) TimerEvent: {}
+[11.735849] (-) TimerEvent: {}
+[11.836122] (-) TimerEvent: {}
+[11.936403] (-) TimerEvent: {}
+[12.036683] (-) TimerEvent: {}
+[12.136969] (-) TimerEvent: {}
+[12.237273] (-) TimerEvent: {}
+[12.337561] (-) TimerEvent: {}
+[12.376560] (task2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable node1\x1b[0m\n'}
+[12.437666] (-) TimerEvent: {}
+[12.537957] (-) TimerEvent: {}
+[12.638238] (-) TimerEvent: {}
+[12.738521] (-) TimerEvent: {}
+[12.836577] (task2) StdoutLine: {'line': b'[100%] Built target node1\n'}
+[12.838598] (-) TimerEvent: {}
+[12.848594] (task2) CommandEnded: {'returncode': 0}
+[12.872783] (task2) JobProgress: {'identifier': 'task2', 'progress': 'install'}
+[12.882266] (task2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sachinb/ros2_ws/build/task2'], 'cwd': '/home/sachinb/ros2_ws/build/task2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sachinb'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sachinb'), ('OLDPWD', '/home/sachinb'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1372'), ('SYSTEMD_EXEC_PID', '1679'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14507'), ('COLCON_PREFIX_PATH', '/home/sachinb/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sachinb'), ('JOURNAL_STREAM', '8:17502'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sachinb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sachinb:@/tmp/.ICE-unix/1647,unix/sachinb:/tmp/.ICE-unix/1647'), ('INVOCATION_ID', '2179e0d0a5664e0f9ae78d0f9165deaf'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sachinb/ros2_ws/install/task2:/home/sachinb/ros2_ws/install/task1cpp:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7c50705e-a450-4d04-86ba-0c8c0deea597'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sachinb/ros2_ws/build/task2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sachinb/ros2_ws/build/task1:/home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sachinb/ros2_ws/install/task2:/home/sachinb/ros2_ws/install/task1cpp:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble')]), 'shell': False}
+[12.890049] (task2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.890239] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/lib/task2/node1\n'}
+[12.893221] (task2) StdoutLine: {'line': b'-- Set runtime path of "/home/sachinb/ros2_ws/install/task2/lib/task2/node1" to ""\n'}
+[12.893400] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/share/ament_index/resource_index/package_run_dependencies/task2\n'}
+[12.893580] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/share/ament_index/resource_index/parent_prefix_path/task2\n'}
+[12.893795] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/share/task2/environment/ament_prefix_path.sh\n'}
+[12.893951] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/share/task2/environment/ament_prefix_path.dsv\n'}
+[12.894065] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/share/task2/environment/path.sh\n'}
+[12.894170] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/share/task2/environment/path.dsv\n'}
+[12.894280] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/share/task2/local_setup.bash\n'}
+[12.894404] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/share/task2/local_setup.sh\n'}
+[12.894526] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/share/task2/local_setup.zsh\n'}
+[12.894660] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/share/task2/local_setup.dsv\n'}
+[12.894798] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/share/task2/package.dsv\n'}
+[12.894971] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/share/ament_index/resource_index/packages/task2\n'}
+[12.895142] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/share/task2/cmake/task2Config.cmake\n'}
+[12.895253] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/share/task2/cmake/task2Config-version.cmake\n'}
+[12.895397] (task2) StdoutLine: {'line': b'-- Installing: /home/sachinb/ros2_ws/install/task2/share/task2/package.xml\n'}
+[12.897213] (task2) CommandEnded: {'returncode': 0}
+[12.935961] (task2) JobEnded: {'identifier': 'task2', 'rc': 0}
+[12.936668] (-) EventReactorShutdown: {}

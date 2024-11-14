@@ -1,32 +1,33 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
+from time import sleep
+from std_msgs.msg import Int32
 
 class Node1(Node):
-
     def __init__(self):
         super().__init__("node1")
-        self.count_ = 0
-        self.get_logger().info("Hello from node1 by OOPS")
-        self.create_timer(0.5, self.timer_callback)
+        
+        self.num = int(input("Enter a number : "))
 
-    def timer_callback(self):
-        self.count_ += 1
-        self.get_logger().info("Hey " + str(self.count_))
-    
+        self.publisher = self.create_publisher(Int32, 'num', 10)
+        self.subscriber = self.create_subscription(Int32, 'response', self.subscribe_callback, 10)
+        self.timer = self.create_timer(1, self.publish_callback)
+
+    def subscribe_callback(self, msg):
+        self.get_logger().info(f"Number Recieved from topic response : {msg.data}")
+        self.num += 1
+
+    def publish_callback(self):
+        msg = Int32()
+        msg.data = self.num
+        self.publisher.publish(msg)
 
 def main(args = None):
     rclpy.init(args=args)
-    node = Node1()
-    rclpy.spin(node)
+    node1 = Node1()
+    rclpy.spin(node1)
     rclpy.shutdown()
-
-    #minimal code for creating a node
-    # rclpy.init(args=args)
-    # node = Node("publisher_python")
-    # node.get_logger().info("Hello from python")
-    # rclpy.spin(node)
-    # rclpy.shutdown()
 
 if __name__ == "__main__":
     main()
