@@ -1,0 +1,1 @@
+/home/sachinb/ros2_ws/build/task3/ament_cmake_python/task3/task3.egg-info/top_level.txt

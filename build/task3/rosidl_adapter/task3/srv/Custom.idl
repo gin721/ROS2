@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from task3/srv/Custom.srv
+// generated code does not contain a copyright notice
+
+
+module task3 {
+  module srv {
+    struct Custom_Request {
+      int32 request;
+    };
+    struct Custom_Response {
+      string response;
+    };
+  };
+};

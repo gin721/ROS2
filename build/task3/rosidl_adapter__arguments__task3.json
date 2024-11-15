@@ -1,0 +1,6 @@
+{
+  "package_name": "task3",
+  "non_idl_tuples": [
+    "/home/sachinb/ros2_ws/src/task3:srv/Custom.srv"
+  ]
+}

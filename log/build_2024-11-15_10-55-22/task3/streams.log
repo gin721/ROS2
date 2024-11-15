@@ -1,0 +1,46 @@
+[0.014s] Invoking command in '/home/sachinb/ros2_ws/build/task3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble /usr/bin/cmake --build /home/sachinb/ros2_ws/build/task3 -- -j8 -l8
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target task3__rosidl_generator_c[0m
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target node1[0m
+[0.082s] [  2%] Built target task3__cpp
+[0.086s] [ 11%] Built target task3__rosidl_generator_c
+[0.089s] [ 17%] Built target node2
+[0.095s] [ 20%] [32mBuilding CXX object CMakeFiles/node1.dir/src/node1.cpp.o[0m
+[0.102s] [ 20%] Built target ament_cmake_python_symlink_task3
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_introspection_cpp[0m
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_fastrtps_cpp[0m
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_cpp[0m
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_fastrtps_c[0m
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_introspection_c[0m
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_c[0m
+[0.131s] [ 28%] Built target task3__rosidl_typesupport_introspection_c
+[0.133s] [ 37%] Built target task3__rosidl_typesupport_fastrtps_c
+[0.136s] [ 45%] Built target task3__rosidl_typesupport_c
+[0.136s] [ 54%] Built target task3__rosidl_typesupport_cpp
+[0.137s] [ 62%] Built target task3__rosidl_typesupport_introspection_cpp
+[0.137s] [ 71%] Built target task3__rosidl_typesupport_fastrtps_cpp
+[0.162s] [ 71%] Built target task3
+[0.185s] [ 74%] Built target task3__py
+[0.197s] [35m[1mConsolidate compiler generated dependencies of target task3__rosidl_generator_py[0m
+[0.213s] [ 80%] Built target task3__rosidl_generator_py
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_c__pyext[0m
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_introspection_c__pyext[0m
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.250s] [ 85%] Built target task3__rosidl_typesupport_c__pyext
+[0.253s] [ 91%] Built target task3__rosidl_typesupport_fastrtps_c__pyext
+[0.253s] [ 97%] Built target task3__rosidl_typesupport_introspection_c__pyext
+[0.382s] [01m[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktask3/task3/srv/custom_service.hpp: No such file or directory
+[0.382s]     2 | #include [01;31m[K"task3/task3/srv/custom_service.hpp"[m[K
+[0.382s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.382s] compilation terminated.
+[0.394s] gmake[2]: *** [CMakeFiles/node1.dir/build.make:76: CMakeFiles/node1.dir/src/node1.cpp.o] Error 1
+[0.394s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/node1.dir/all] Error 2
+[0.394s] gmake[1]: *** Waiting for unfinished jobs....
+[0.488s] running egg_info
+[0.489s] writing task3.egg-info/PKG-INFO
+[0.489s] writing dependency_links to task3.egg-info/dependency_links.txt
+[0.490s] writing top-level names to task3.egg-info/top_level.txt
+[0.492s] reading manifest file 'task3.egg-info/SOURCES.txt'
+[0.493s] writing manifest file 'task3.egg-info/SOURCES.txt'
+[0.524s] [ 97%] Built target ament_cmake_python_build_task3_egg
+[0.526s] gmake: *** [Makefile:146: all] Error 2
+[0.528s] Invoked command in '/home/sachinb/ros2_ws/build/task3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble /usr/bin/cmake --build /home/sachinb/ros2_ws/build/task3 -- -j8 -l8

@@ -1,0 +1,33 @@
+[0.015s] Invoking command in '/home/sachinb/ros2_ws/build/task3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble /usr/bin/cmake --build /home/sachinb/ros2_ws/build/task3 -- -j8 -l8
+[0.065s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.231s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.246s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.296s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.300s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.312s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.328s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.400s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.402s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.538s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.634s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.634s]   By not providing "Findinterfaces.cmake" in CMAKE_MODULE_PATH this project
+[0.634s]   has asked CMake to find a package configuration file provided by
+[0.634s]   "interfaces", but CMake did not find one.
+[0.634s] 
+[0.634s]   Could not find a package configuration file provided by "interfaces" with
+[0.634s]   any of the following names:
+[0.634s] 
+[0.634s]     interfacesConfig.cmake
+[0.635s]     interfaces-config.cmake
+[0.635s] 
+[0.635s]   Add the installation prefix of "interfaces" to CMAKE_PREFIX_PATH or set
+[0.635s]   "interfaces_DIR" to a directory containing one of the above files.  If
+[0.635s]   "interfaces" provides a separate development package or SDK, be sure it has
+[0.635s]   been installed.
+[0.635s] 
+[0.635s] [0m
+[0.635s] -- Configuring incomplete, errors occurred!
+[0.635s] See also "/home/sachinb/ros2_ws/build/task3/CMakeFiles/CMakeOutput.log".
+[0.641s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.643s] Invoked command in '/home/sachinb/ros2_ws/build/task3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble /usr/bin/cmake --build /home/sachinb/ros2_ws/build/task3 -- -j8 -l8

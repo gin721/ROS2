@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target node1[0m
+[  8%] Built target task3__rosidl_generator_c
+[ 11%] [32mBuilding CXX object CMakeFiles/node2.dir/src/node2.cpp.o[0m
+[ 14%] Built target task3__cpp
+[ 20%] Built target node1
+[ 20%] Built target ament_cmake_python_symlink_task3
+[ 28%] Built target task3__rosidl_typesupport_introspection_c
+[ 45%] Built target task3__rosidl_typesupport_fastrtps_c
+[ 45%] Built target task3__rosidl_typesupport_c
+[ 57%] Built target task3__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target task3__rosidl_typesupport_cpp

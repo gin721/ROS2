@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target task3__rosidl_generator_c[0m
+[35m[1mConsolidate compiler generated dependencies of target node1[0m
+[  2%] Built target task3__cpp
+[ 11%] Built target task3__rosidl_generator_c
+[ 17%] Built target node2
+[ 20%] [32mBuilding CXX object CMakeFiles/node1.dir/src/node1.cpp.o[0m
+[ 20%] Built target ament_cmake_python_symlink_task3
+[35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_c[0m
+[ 28%] Built target task3__rosidl_typesupport_introspection_c
+[ 37%] Built target task3__rosidl_typesupport_fastrtps_c
+[ 45%] Built target task3__rosidl_typesupport_c
+[ 54%] Built target task3__rosidl_typesupport_cpp
+[ 62%] Built target task3__rosidl_typesupport_introspection_cpp
+[ 71%] Built target task3__rosidl_typesupport_fastrtps_cpp
+[ 71%] Built target task3
+[ 74%] Built target task3__py
+[35m[1mConsolidate compiler generated dependencies of target task3__rosidl_generator_py[0m
+[ 80%] Built target task3__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target task3__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 85%] Built target task3__rosidl_typesupport_c__pyext
+[ 91%] Built target task3__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target task3__rosidl_typesupport_introspection_c__pyext
+[01m[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktask3/task3/srv/custom_service.hpp: No such file or directory
+    2 | #include [01;31m[K"task3/task3/srv/custom_service.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/node1.dir/build.make:76: CMakeFiles/node1.dir/src/node1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/node1.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing task3.egg-info/PKG-INFO
+writing dependency_links to task3.egg-info/dependency_links.txt
+writing top-level names to task3.egg-info/top_level.txt
+reading manifest file 'task3.egg-info/SOURCES.txt'
+writing manifest file 'task3.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_task3_egg
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,58 @@
+[0.015s] Invoking command in '/home/sachinb/ros2_ws/build/task3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble /usr/bin/cmake /home/sachinb/ros2_ws/src/task3 -DCMAKE_INSTALL_PREFIX=/home/sachinb/ros2_ws/install/task3
+[0.031s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.186s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.197s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.235s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.239s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.247s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.277s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.322s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.324s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.457s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.527s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.544s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.770s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.770s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name task3
+[0.770s]   --arguments-file
+[0.770s]   /home/sachinb/ros2_ws/build/task3/rosidl_adapter__arguments__task3.json
+[0.770s]   --output-dir /home/sachinb/ros2_ws/build/task3/rosidl_adapter/task3
+[0.770s]   --output-file /home/sachinb/ros2_ws/build/task3/rosidl_adapter/task3.idls)
+[0.770s]   returned error code 1:
+[0.770s] 
+[0.770s]   Error processing 'int32 Request' of 'task3/custom_Request': ''Request' is
+[0.771s]   an invalid field name.  It should have the pattern
+[0.771s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.771s] 
+[0.771s]   Traceback (most recent call last):
+[0.771s] 
+[0.771s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.771s]       return _run_code(code, main_globals, None,
+[0.771s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.771s]       exec(code, run_globals)
+[0.771s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.771s]       sys.exit(main())
+[0.771s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.772s]       abs_idl_file = convert_to_idl(
+[0.772s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.772s]       return convert_srv_to_idl(
+[0.772s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.772s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.772s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[0.772s]       request_message = parse_message_string(
+[0.772s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[0.772s]       fields.append(Field(
+[0.772s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[0.772s]       raise NameError(
+[0.772s] 
+[0.772s]   NameError: 'Request' is an invalid field name.  It should have the pattern
+[0.773s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.773s] 
+[0.773s] Call Stack (most recent call first):
+[0.773s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.773s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.773s] 
+[0.773s] [0m
+[0.773s] -- Configuring incomplete, errors occurred!
+[0.773s] See also "/home/sachinb/ros2_ws/build/task3/CMakeFiles/CMakeOutput.log".
+[0.783s] Invoked command in '/home/sachinb/ros2_ws/build/task3' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble /usr/bin/cmake /home/sachinb/ros2_ws/src/task3 -DCMAKE_INSTALL_PREFIX=/home/sachinb/ros2_ws/install/task3

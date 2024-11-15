@@ -1,0 +1,21 @@
+[0.016s] Invoking command in '/home/sachinb/ros2_ws/build/task3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble /usr/bin/cmake --build /home/sachinb/ros2_ws/build/task3 -- -j8 -l8
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target node1[0m
+[0.077s] [  8%] Built target task3__rosidl_generator_c
+[0.080s] [ 11%] [32mBuilding CXX object CMakeFiles/node2.dir/src/node2.cpp.o[0m
+[0.081s] [ 14%] Built target task3__cpp
+[0.092s] [ 20%] Built target node1
+[0.093s] [ 20%] Built target ament_cmake_python_symlink_task3
+[0.093s] [01m[K/home/sachinb/ros2_ws/src/task3/src/node2.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.093s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.093s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.094s] compilation terminated.
+[0.094s] gmake[2]: *** [CMakeFiles/node2.dir/build.make:76: CMakeFiles/node2.dir/src/node2.cpp.o] Error 1
+[0.094s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/node2.dir/all] Error 2
+[0.094s] gmake[1]: *** Waiting for unfinished jobs....
+[0.108s] [ 28%] Built target task3__rosidl_typesupport_introspection_c
+[0.111s] [ 45%] Built target task3__rosidl_typesupport_fastrtps_c
+[0.111s] [ 45%] Built target task3__rosidl_typesupport_c
+[0.116s] [ 57%] Built target task3__rosidl_typesupport_fastrtps_cpp
+[0.116s] [ 62%] Built target task3__rosidl_typesupport_cpp
+[0.117s] gmake: *** [Makefile:146: all] Error 2
+[0.120s] Invoked command in '/home/sachinb/ros2_ws/build/task3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble /usr/bin/cmake --build /home/sachinb/ros2_ws/build/task3 -- -j8 -l8

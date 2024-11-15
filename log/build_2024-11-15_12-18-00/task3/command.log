@@ -1,0 +1,2 @@
+Invoking command in '/home/sachinb/ros2_ws/build/task3': /usr/bin/cmake --build /home/sachinb/ros2_ws/build/task3 -- -j8 -l8
+Invoked command in '/home/sachinb/ros2_ws/build/task3' returned '2': /usr/bin/cmake --build /home/sachinb/ros2_ws/build/task3 -- -j8 -l8

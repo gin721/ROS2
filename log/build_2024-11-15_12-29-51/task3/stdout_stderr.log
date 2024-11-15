@@ -1,0 +1,56 @@
+[35m[1mConsolidate compiler generated dependencies of target node1[0m
+[  2%] Built target task3__cpp
+[ 11%] Built target task3__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_symlink_task3
+[ 17%] Built target node2
+[ 20%] [32mBuilding CXX object CMakeFiles/node1.dir/src/node1.cpp.o[0m
+[ 28%] Built target task3__rosidl_typesupport_cpp
+[ 37%] Built target task3__rosidl_typesupport_introspection_cpp
+[ 45%] Built target task3__rosidl_typesupport_fastrtps_cpp
+[ 54%] Built target task3__rosidl_typesupport_fastrtps_c
+[ 62%] Built target task3__rosidl_typesupport_introspection_c
+[ 71%] Built target task3__rosidl_typesupport_c
+[ 71%] Built target task3
+[ 74%] Built target task3__py
+[ 80%] Built target task3__rosidl_generator_py
+[ 85%] Built target task3__rosidl_typesupport_introspection_c__pyext
+[ 91%] Built target task3__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target task3__rosidl_typesupport_c__pyext
+running egg_info
+writing task3.egg-info/PKG-INFO
+writing dependency_links to task3.egg-info/dependency_links.txt
+writing top-level names to task3.egg-info/top_level.txt
+reading manifest file 'task3.egg-info/SOURCES.txt'
+writing manifest file 'task3.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_task3_egg
+[01m[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:[m[K In member function ‘[01m[Kvoid Node1::requestCallback(std::shared_ptr<task3::srv::Custom_Request_<std::allocator<void> > >, std::shared_ptr<task3::srv::Custom_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:36:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+   36 |             case [01;31m[K3[m[K:
+      |                  [01;31m[K^[m[K
+[01m[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:33:23:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kchar* date_time[m[K’
+   33 |                 char* [01;36m[Kdate_time[m[K = ctime(&now);
+      |                       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:32:24:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Ktime_t now[m[K’
+   32 |                 time_t [01;36m[Know[m[K = time(0);
+      |                        [01;36m[K^~~[m[K
+[01m[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:39:18:[m[K [01;31m[Kerror: [m[Kjump to case label
+   39 |             case [01;31m[K4[m[K:
+      |                  [01;31m[K^[m[K
+[01m[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:33:23:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kchar* date_time[m[K’
+   33 |                 char* [01;36m[Kdate_time[m[K = ctime(&now);
+      |                       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:32:24:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Ktime_t now[m[K’
+   32 |                 time_t [01;36m[Know[m[K = time(0);
+      |                        [01;36m[K^~~[m[K
+[01m[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:42:13:[m[K [01;31m[Kerror: [m[Kjump to case label
+   42 |             [01;31m[Kdefault[m[K:
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:33:23:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Kchar* date_time[m[K’
+   33 |                 char* [01;36m[Kdate_time[m[K = ctime(&now);
+      |                       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:32:24:[m[K [01;36m[Knote: [m[K  crosses initialization of ‘[01m[Ktime_t now[m[K’
+   32 |                 time_t [01;36m[Know[m[K = time(0);
+      |                        [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/node1.dir/build.make:76: CMakeFiles/node1.dir/src/node1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/node1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

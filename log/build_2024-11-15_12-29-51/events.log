@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000190] (-) JobUnselected: {'identifier': 'task1'}
+[0.000374] (-) JobUnselected: {'identifier': 'task2'}
+[0.000395] (task3) JobQueued: {'identifier': 'task3', 'dependencies': OrderedDict()}
+[0.000412] (task3) JobStarted: {'identifier': 'task3'}
+[0.006226] (task3) JobProgress: {'identifier': 'task3', 'progress': 'cmake'}
+[0.006752] (task3) JobProgress: {'identifier': 'task3', 'progress': 'build'}
+[0.007366] (task3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sachinb/ros2_ws/build/task3', '--', '-j8', '-l8'], 'cwd': '/home/sachinb/ros2_ws/build/task3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sachinb'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sachinb/ros2_ws/install/task3/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sachinb'), ('OLDPWD', '/home/sachinb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sachinb/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sachinb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sachinb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sachinb:@/tmp/.ICE-unix/1639,unix/sachinb:/tmp/.ICE-unix/1639'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/da7ad148_c99c_4d60_be62_f90a815202db'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.708'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sachinb/ros2_ws/install/task3:/home/sachinb/ros2_ws/install/task2:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sachinb/ros2_ws/build/task3'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages:/home/sachinb/ros2_ws/build/task1:/home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sachinb/ros2_ws/install/task3:/home/sachinb/ros2_ws/install/task2:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble')]), 'shell': False}
+[0.043891] (task3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target node1\x1b[0m\n'}
+[0.050513] (task3) StdoutLine: {'line': b'[  2%] Built target task3__cpp\n'}
+[0.051290] (task3) StdoutLine: {'line': b'[ 11%] Built target task3__rosidl_generator_c\n'}
+[0.058932] (task3) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_task3\n'}
+[0.062980] (task3) StdoutLine: {'line': b'[ 17%] Built target node2\n'}
+[0.067968] (task3) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/node1.dir/src/node1.cpp.o\x1b[0m\n'}
+[0.077224] (task3) StdoutLine: {'line': b'[ 28%] Built target task3__rosidl_typesupport_cpp\n'}
+[0.077465] (task3) StdoutLine: {'line': b'[ 37%] Built target task3__rosidl_typesupport_introspection_cpp\n'}
+[0.079716] (task3) StdoutLine: {'line': b'[ 45%] Built target task3__rosidl_typesupport_fastrtps_cpp\n'}
+[0.079964] (task3) StdoutLine: {'line': b'[ 54%] Built target task3__rosidl_typesupport_fastrtps_c\n'}
+[0.082420] (task3) StdoutLine: {'line': b'[ 62%] Built target task3__rosidl_typesupport_introspection_c\n'}
+[0.085609] (task3) StdoutLine: {'line': b'[ 71%] Built target task3__rosidl_typesupport_c\n'}
+[0.099836] (-) TimerEvent: {}
+[0.100046] (task3) StdoutLine: {'line': b'[ 71%] Built target task3\n'}
+[0.115846] (task3) StdoutLine: {'line': b'[ 74%] Built target task3__py\n'}
+[0.133506] (task3) StdoutLine: {'line': b'[ 80%] Built target task3__rosidl_generator_py\n'}
+[0.153778] (task3) StdoutLine: {'line': b'[ 85%] Built target task3__rosidl_typesupport_introspection_c__pyext\n'}
+[0.155165] (task3) StdoutLine: {'line': b'[ 91%] Built target task3__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.159152] (task3) StdoutLine: {'line': b'[ 97%] Built target task3__rosidl_typesupport_c__pyext\n'}
+[0.199918] (-) TimerEvent: {}
+[0.300147] (-) TimerEvent: {}
+[0.317147] (task3) StdoutLine: {'line': b'running egg_info\n'}
+[0.317755] (task3) StdoutLine: {'line': b'writing task3.egg-info/PKG-INFO\n'}
+[0.317973] (task3) StdoutLine: {'line': b'writing dependency_links to task3.egg-info/dependency_links.txt\n'}
+[0.318102] (task3) StdoutLine: {'line': b'writing top-level names to task3.egg-info/top_level.txt\n'}
+[0.320609] (task3) StdoutLine: {'line': b"reading manifest file 'task3.egg-info/SOURCES.txt'\n"}
+[0.321036] (task3) StdoutLine: {'line': b"writing manifest file 'task3.egg-info/SOURCES.txt'\n"}
+[0.346122] (task3) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_task3_egg\n'}
+[0.400253] (-) TimerEvent: {}
+[0.500475] (-) TimerEvent: {}
+[0.600721] (-) TimerEvent: {}
+[0.700971] (-) TimerEvent: {}
+[0.801197] (-) TimerEvent: {}
+[0.901489] (-) TimerEvent: {}
+[1.001716] (-) TimerEvent: {}
+[1.101943] (-) TimerEvent: {}
+[1.202183] (-) TimerEvent: {}
+[1.302460] (-) TimerEvent: {}
+[1.402728] (-) TimerEvent: {}
+[1.502969] (-) TimerEvent: {}
+[1.603250] (-) TimerEvent: {}
+[1.703538] (-) TimerEvent: {}
+[1.803782] (-) TimerEvent: {}
+[1.904014] (-) TimerEvent: {}
+[2.000669] (task3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Node1::requestCallback(std::shared_ptr<task3::srv::Custom_Request_<std::allocator<void> > >, std::shared_ptr<task3::srv::Custom_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.000834] (task3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:36:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[2.000892] (task3) StderrLine: {'line': b'   36 |             case \x1b[01;31m\x1b[K3\x1b[m\x1b[K:\n'}
+[2.000942] (task3) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.000989] (task3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:33:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kchar* date_time\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.001037] (task3) StderrLine: {'line': b'   33 |                 char* \x1b[01;36m\x1b[Kdate_time\x1b[m\x1b[K = ctime(&now);\n'}
+[2.001083] (task3) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.001127] (task3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:32:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Ktime_t now\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.001172] (task3) StderrLine: {'line': b'   32 |                 time_t \x1b[01;36m\x1b[Know\x1b[m\x1b[K = time(0);\n'}
+[2.001217] (task3) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.001275] (task3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:39:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[2.001322] (task3) StderrLine: {'line': b'   39 |             case \x1b[01;31m\x1b[K4\x1b[m\x1b[K:\n'}
+[2.001366] (task3) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.001409] (task3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:33:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kchar* date_time\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.001453] (task3) StderrLine: {'line': b'   33 |                 char* \x1b[01;36m\x1b[Kdate_time\x1b[m\x1b[K = ctime(&now);\n'}
+[2.001496] (task3) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.001540] (task3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:32:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Ktime_t now\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.001583] (task3) StderrLine: {'line': b'   32 |                 time_t \x1b[01;36m\x1b[Know\x1b[m\x1b[K = time(0);\n'}
+[2.001626] (task3) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.001669] (task3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:42:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kjump to case label\n'}
+[2.001712] (task3) StderrLine: {'line': b'   42 |             \x1b[01;31m\x1b[Kdefault\x1b[m\x1b[K:\n'}
+[2.001755] (task3) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.001798] (task3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:33:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Kchar* date_time\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.001842] (task3) StderrLine: {'line': b'   33 |                 char* \x1b[01;36m\x1b[Kdate_time\x1b[m\x1b[K = ctime(&now);\n'}
+[2.001891] (task3) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.001936] (task3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachinb/ros2_ws/src/task3/src/node1.cpp:32:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  crosses initialization of \xe2\x80\x98\x1b[01m\x1b[Ktime_t now\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.001980] (task3) StderrLine: {'line': b'   32 |                 time_t \x1b[01;36m\x1b[Know\x1b[m\x1b[K = time(0);\n'}
+[2.002024] (task3) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.004077] (-) TimerEvent: {}
+[2.104262] (-) TimerEvent: {}
+[2.204487] (-) TimerEvent: {}
+[2.304707] (-) TimerEvent: {}
+[2.404937] (-) TimerEvent: {}
+[2.505234] (-) TimerEvent: {}
+[2.605555] (-) TimerEvent: {}
+[2.705791] (-) TimerEvent: {}
+[2.806062] (-) TimerEvent: {}
+[2.906428] (-) TimerEvent: {}
+[3.006677] (-) TimerEvent: {}
+[3.106918] (-) TimerEvent: {}
+[3.207175] (-) TimerEvent: {}
+[3.307457] (-) TimerEvent: {}
+[3.407727] (-) TimerEvent: {}
+[3.507976] (-) TimerEvent: {}
+[3.608232] (-) TimerEvent: {}
+[3.708483] (-) TimerEvent: {}
+[3.808737] (-) TimerEvent: {}
+[3.908979] (-) TimerEvent: {}
+[4.009214] (-) TimerEvent: {}
+[4.109505] (-) TimerEvent: {}
+[4.110076] (task3) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/node1.dir/build.make:76: CMakeFiles/node1.dir/src/node1.cpp.o] Error 1\n'}
+[4.110274] (task3) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/node1.dir/all] Error 2\n'}
+[4.110538] (task3) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.112667] (task3) CommandEnded: {'returncode': 2}
+[4.166823] (task3) JobEnded: {'identifier': 'task3', 'rc': 2}
+[4.177219] (-) EventReactorShutdown: {}

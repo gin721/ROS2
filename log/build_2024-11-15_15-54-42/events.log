@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000165] (-) JobUnselected: {'identifier': 'task1'}
+[0.000256] (-) JobUnselected: {'identifier': 'task2'}
+[0.000274] (task3) JobQueued: {'identifier': 'task3', 'dependencies': OrderedDict()}
+[0.000435] (task3) JobStarted: {'identifier': 'task3'}
+[0.007779] (task3) JobProgress: {'identifier': 'task3', 'progress': 'cmake'}
+[0.008288] (task3) JobProgress: {'identifier': 'task3', 'progress': 'build'}
+[0.008956] (task3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sachinb/ros2_ws/build/task3', '--', '-j8', '-l8'], 'cwd': '/home/sachinb/ros2_ws/build/task3', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sachinb'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sachinb/ros2_ws/install/task3/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sachinb'), ('OLDPWD', '/home/sachinb'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1365'), ('SYSTEMD_EXEC_PID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '43966'), ('COLCON_PREFIX_PATH', '/home/sachinb/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sachinb'), ('JOURNAL_STREAM', '8:13777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sachinb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sachinb:@/tmp/.ICE-unix/1639,unix/sachinb:/tmp/.ICE-unix/1639'), ('INVOCATION_ID', '74d01048d68544a78e937932f3d25707'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sachinb/ros2_ws/install/task3:/home/sachinb/ros2_ws/install/task2:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:88f2beae-b8f0-4624-879a-eee4bdcee823'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sachinb/ros2_ws/build/task3'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages:/home/sachinb/ros2_ws/build/task1:/home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sachinb/ros2_ws/install/task3:/home/sachinb/ros2_ws/install/task2:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble')]), 'shell': False}
+[0.042710] (task3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target node2\x1b[0m\n'}
+[0.044352] (task3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target node1\x1b[0m\n'}
+[0.052586] (task3) StdoutLine: {'line': b'[  8%] Built target task3__rosidl_generator_c\n'}
+[0.052863] (task3) StdoutLine: {'line': b'[ 11%] Built target task3__cpp\n'}
+[0.061298] (task3) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_task3\n'}
+[0.066862] (task3) StdoutLine: {'line': b'[ 17%] Built target node1\n'}
+[0.067104] (task3) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/node2.dir/src/node2.cpp.o\x1b[0m\n'}
+[0.080525] (task3) StdoutLine: {'line': b'[ 37%] Built target task3__rosidl_typesupport_fastrtps_c\n'}
+[0.082347] (task3) StdoutLine: {'line': b'[ 37%] Built target task3__rosidl_typesupport_introspection_c\n'}
+[0.083734] (task3) StdoutLine: {'line': b'[ 45%] Built target task3__rosidl_typesupport_c\n'}
+[0.087582] (task3) StdoutLine: {'line': b'[ 62%] Built target task3__rosidl_typesupport_introspection_cpp\n'}
+[0.087814] (task3) StdoutLine: {'line': b'[ 62%] Built target task3__rosidl_typesupport_cpp\n'}
+[0.088252] (task3) StdoutLine: {'line': b'[ 71%] Built target task3__rosidl_typesupport_fastrtps_cpp\n'}
+[0.099864] (-) TimerEvent: {}
+[0.104365] (task3) StdoutLine: {'line': b'[ 71%] Built target task3\n'}
+[0.121859] (task3) StdoutLine: {'line': b'[ 74%] Built target task3__py\n'}
+[0.139565] (task3) StdoutLine: {'line': b'[ 80%] Built target task3__rosidl_generator_py\n'}
+[0.158562] (task3) StdoutLine: {'line': b'[ 85%] Built target task3__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.164671] (task3) StdoutLine: {'line': b'[ 97%] Built target task3__rosidl_typesupport_introspection_c__pyext\n'}
+[0.164825] (task3) StdoutLine: {'line': b'[ 97%] Built target task3__rosidl_typesupport_c__pyext\n'}
+[0.199941] (-) TimerEvent: {}
+[0.300143] (-) TimerEvent: {}
+[0.302924] (task3) StdoutLine: {'line': b'running egg_info\n'}
+[0.303586] (task3) StdoutLine: {'line': b'writing task3.egg-info/PKG-INFO\n'}
+[0.303807] (task3) StdoutLine: {'line': b'writing dependency_links to task3.egg-info/dependency_links.txt\n'}
+[0.303910] (task3) StdoutLine: {'line': b'writing top-level names to task3.egg-info/top_level.txt\n'}
+[0.306060] (task3) StdoutLine: {'line': b"reading manifest file 'task3.egg-info/SOURCES.txt'\n"}
+[0.306537] (task3) StdoutLine: {'line': b"writing manifest file 'task3.egg-info/SOURCES.txt'\n"}
+[0.328114] (task3) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_task3_egg\n'}
+[0.400239] (-) TimerEvent: {}
+[0.500503] (-) TimerEvent: {}
+[0.600756] (-) TimerEvent: {}
+[0.701042] (-) TimerEvent: {}
+[0.801342] (-) TimerEvent: {}
+[0.901670] (-) TimerEvent: {}
+[1.001953] (-) TimerEvent: {}
+[1.102229] (-) TimerEvent: {}
+[1.202517] (-) TimerEvent: {}
+[1.302781] (-) TimerEvent: {}
+[1.403057] (-) TimerEvent: {}
+[1.503334] (-) TimerEvent: {}
+[1.603653] (-) TimerEvent: {}
+[1.703928] (-) TimerEvent: {}
+[1.804185] (-) TimerEvent: {}
+[1.856621] (task3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.856770] (task3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.856825] (task3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.856872] (task3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.856917] (task3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.856961] (task3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.857004] (task3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.857047] (task3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.857089] (task3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.857133] (task3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.857176] (task3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.857217] (task3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sachinb/ros2_ws/src/task3/src/node2.cpp:1\x1b[m\x1b[K:\n'}
+[1.857259] (task3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachinb/ros2_ws/src/task3/src/node2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Node2::callService(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.857301] (task3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachinb/ros2_ws/src/task3/src/node2.cpp:34:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%c\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.857348] (task3) StderrLine: {'line': b'   34 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"%c"\x1b[m\x1b[K, str);\n'}
+[1.857390] (task3) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.857477] (task3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sachinb/ros2_ws/src/task3/src/node2.cpp:34:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.857521] (task3) StderrLine: {'line': b'   34 |             RCLCPP_INFO(this->get_logger(), "\x1b[01;36m\x1b[K%c\x1b[m\x1b[K", str);\n'}
+[1.857562] (task3) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[1.857603] (task3) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[1.857651] (task3) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[1.904278] (-) TimerEvent: {}
+[2.004536] (-) TimerEvent: {}
+[2.104806] (-) TimerEvent: {}
+[2.205077] (-) TimerEvent: {}
+[2.305322] (-) TimerEvent: {}
+[2.405637] (-) TimerEvent: {}
+[2.505876] (-) TimerEvent: {}
+[2.606146] (-) TimerEvent: {}
+[2.706416] (-) TimerEvent: {}
+[2.761707] (task3) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable node2\x1b[0m\n'}
+[2.806515] (-) TimerEvent: {}
+[2.874670] (task3) StdoutLine: {'line': b'[100%] Built target node2\n'}
+[2.886305] (task3) CommandEnded: {'returncode': 0}
+[2.906587] (-) TimerEvent: {}
+[2.924086] (task3) JobProgress: {'identifier': 'task3', 'progress': 'install'}
+[2.930040] (task3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sachinb/ros2_ws/build/task3'], 'cwd': '/home/sachinb/ros2_ws/build/task3', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sachinb'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sachinb/ros2_ws/install/task3/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sachinb'), ('OLDPWD', '/home/sachinb'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1365'), ('SYSTEMD_EXEC_PID', '1670'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '43966'), ('COLCON_PREFIX_PATH', '/home/sachinb/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sachinb'), ('JOURNAL_STREAM', '8:13777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sachinb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sachinb:@/tmp/.ICE-unix/1639,unix/sachinb:/tmp/.ICE-unix/1639'), ('INVOCATION_ID', '74d01048d68544a78e937932f3d25707'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sachinb/ros2_ws/install/task3:/home/sachinb/ros2_ws/install/task2:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:88f2beae-b8f0-4624-879a-eee4bdcee823'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sachinb/ros2_ws/build/task3'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages:/home/sachinb/ros2_ws/build/task1:/home/sachinb/ros2_ws/install/task1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sachinb/ros2_ws/install/task3:/home/sachinb/ros2_ws/install/task2:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble')]), 'shell': False}
+[2.936612] (task3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.936979] (task3) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.937141] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/ament_index/resource_index/rosidl_interfaces/task3\n'}
+[2.937459] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.937546] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/custom.h\n'}
+[2.937627] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/custom_service.h\n'}
+[2.937709] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom__functions.h\n'}
+[2.937790] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom__struct.h\n'}
+[2.937869] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom__type_support.h\n'}
+[2.937947] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom_service__functions.h\n'}
+[2.938025] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom_service__struct.h\n'}
+[2.938103] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom_service__type_support.h\n'}
+[2.938226] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/environment/library_path.sh\n'}
+[2.938337] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/environment/library_path.dsv\n'}
+[2.938653] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.938754] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom__rosidl_typesupport_fastrtps_c.h\n'}
+[2.938846] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom_service__rosidl_typesupport_fastrtps_c.h\n'}
+[2.939130] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/custom.hpp\n'}
+[2.939223] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/custom_service.hpp\n'}
+[2.939317] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom__builder.hpp\n'}
+[2.939413] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom__struct.hpp\n'}
+[2.939510] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom__traits.hpp\n'}
+[2.939601] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom_service__builder.hpp\n'}
+[2.939691] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom_service__struct.hpp\n'}
+[2.939790] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom_service__traits.hpp\n'}
+[2.940107] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.940192] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.940275] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.940521] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.940609] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom__rosidl_typesupport_introspection_c.h\n'}
+[2.940687] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom_service__rosidl_typesupport_introspection_c.h\n'}
+[2.940929] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.941014] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/include/task3/task3/srv/detail/custom_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.941137] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/environment/pythonpath.sh\n'}
+[2.941251] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/environment/pythonpath.dsv\n'}
+[2.941476] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.941560] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.941641] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.941737] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.942175] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/__init__.py\n'}
+[2.942274] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/_task3_s.ep.rosidl_typesupport_c.c\n'}
+[2.942367] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/_task3_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.942484] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/_task3_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.942619] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/libtask3__rosidl_generator_py.so\n'}
+[2.942715] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/srv/__init__.py\n'}
+[2.942812] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/srv/_custom.py\n'}
+[2.942890] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/srv/_custom_s.c\n'}
+[2.942968] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/srv/_custom_service.py\n'}
+[2.943044] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/srv/_custom_service_s.c\n'}
+[2.943122] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/task3_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.943199] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/task3_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.943276] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/task3_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.943476] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/task3_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.943653] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/task3_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.943858] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/task3_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.943998] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/srv/Custom.idl\n'}
+[2.944121] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/srv/Custom.srv\n'}
+[2.944246] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/srv/Custom_Request.msg\n'}
+[2.944369] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/srv/Custom_Response.msg\n'}
+[2.944569] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/lib/task3/node1\n'}
+[2.944684] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/lib/task3/node2\n'}
+[2.944831] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/ament_index/resource_index/package_run_dependencies/task3\n'}
+[2.944950] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/ament_index/resource_index/parent_prefix_path/task3\n'}
+[2.945073] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/environment/ament_prefix_path.sh\n'}
+[2.945183] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/environment/ament_prefix_path.dsv\n'}
+[2.945295] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/environment/path.sh\n'}
+[2.945408] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/environment/path.dsv\n'}
+[2.945523] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/local_setup.bash\n'}
+[2.945635] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/local_setup.sh\n'}
+[2.945756] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/local_setup.zsh\n'}
+[2.945874] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/local_setup.dsv\n'}
+[2.945965] (task3) StdoutLine: {'line': b'-- Symlinking: /home/sachinb/ros2_ws/install/task3/share/task3/package.dsv\n'}
+[2.952271] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/ament_index/resource_index/packages/task3\n'}
+[2.952384] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/rosidl_cmake-extras.cmake\n'}
+[2.952474] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.952591] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.952704] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.952815] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.952924] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.953032] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.953148] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/task3Config.cmake\n'}
+[2.953226] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/task3Config-version.cmake\n'}
+[2.953332] (task3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sachinb/ros2_ws/install/task3/share/task3/package.xml\n'}
+[2.953493] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/lib/libtask3__rosidl_generator_c.so\n'}
+[2.953680] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/lib/libtask3__rosidl_typesupport_fastrtps_c.so\n'}
+[2.953896] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/lib/libtask3__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.954073] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/lib/libtask3__rosidl_typesupport_introspection_c.so\n'}
+[2.954247] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/lib/libtask3__rosidl_typesupport_c.so\n'}
+[2.954439] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/lib/libtask3__rosidl_typesupport_introspection_cpp.so\n'}
+[2.954622] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/lib/libtask3__rosidl_typesupport_cpp.so\n'}
+[2.978555] (task3) StdoutLine: {'line': b"Listing '/home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3'...\n"}
+[2.978718] (task3) StdoutLine: {'line': b"Listing '/home/sachinb/ros2_ws/install/task3/local/lib/python3.10/dist-packages/task3/srv'...\n"}
+[2.981834] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/lib/libtask3__rosidl_generator_py.so\n'}
+[2.982016] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_generator_cExport.cmake\n'}
+[2.982096] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.982186] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.982255] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.982307] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_generator_cppExport.cmake\n'}
+[2.982357] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.982494] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.982587] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.982644] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.982696] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_cExport.cmake\n'}
+[2.982747] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.982817] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.982907] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.982956] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_cppExport.cmake\n'}
+[2.983002] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/task3__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.983047] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_generator_pyExport.cmake\n'}
+[2.983092] (task3) StdoutLine: {'line': b'-- Up-to-date: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/export_task3__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.984359] (task3) CommandEnded: {'returncode': 0}
+[3.006673] (-) TimerEvent: {}
+[3.038781] (task3) JobEnded: {'identifier': 'task3', 'rc': 0}
+[3.039278] (-) EventReactorShutdown: {}

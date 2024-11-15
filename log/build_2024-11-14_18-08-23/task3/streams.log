@@ -1,0 +1,40 @@
+[0.213s] Invoking command in '/home/sachinb/ros2_ws/build/task3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble /usr/bin/cmake /home/sachinb/ros2_ws/src/task3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sachinb/ros2_ws/install/task3
+[0.222s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.325s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.333s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.359s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.361s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.366s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.374s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.412s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.413s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.492s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.535s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.600s] -- Added test 'lint_cmake' to check CMake code style
+[0.601s] -- Added test 'xmllint' to check XML markup files
+[0.602s] -- Configuring done
+[0.606s] -- Generating done
+[0.608s] -- Build files have been written to: /home/sachinb/ros2_ws/build/task3
+[0.619s] Invoked command in '/home/sachinb/ros2_ws/build/task3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble /usr/bin/cmake /home/sachinb/ros2_ws/src/task3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sachinb/ros2_ws/install/task3
+[0.620s] Invoking command in '/home/sachinb/ros2_ws/build/task3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble /usr/bin/cmake --build /home/sachinb/ros2_ws/build/task3 -- -j8 -l8
+[0.651s] Invoked command in '/home/sachinb/ros2_ws/build/task3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble /usr/bin/cmake --build /home/sachinb/ros2_ws/build/task3 -- -j8 -l8
+[0.671s] Invoking command in '/home/sachinb/ros2_ws/build/task3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble /usr/bin/cmake --install /home/sachinb/ros2_ws/build/task3
+[0.676s] -- Install configuration: ""
+[0.676s] -- Execute custom install script
+[0.676s] -- Symlinking: /home/sachinb/ros2_ws/install/task3/share/ament_index/resource_index/package_run_dependencies/task3
+[0.683s] -- Symlinking: /home/sachinb/ros2_ws/install/task3/share/ament_index/resource_index/parent_prefix_path/task3
+[0.689s] -- Symlinking: /home/sachinb/ros2_ws/install/task3/share/task3/environment/ament_prefix_path.sh
+[0.695s] -- Symlinking: /home/sachinb/ros2_ws/install/task3/share/task3/environment/ament_prefix_path.dsv
+[0.702s] -- Symlinking: /home/sachinb/ros2_ws/install/task3/share/task3/environment/path.sh
+[0.709s] -- Symlinking: /home/sachinb/ros2_ws/install/task3/share/task3/environment/path.dsv
+[0.715s] -- Symlinking: /home/sachinb/ros2_ws/install/task3/share/task3/local_setup.bash
+[0.722s] -- Symlinking: /home/sachinb/ros2_ws/install/task3/share/task3/local_setup.sh
+[0.729s] -- Symlinking: /home/sachinb/ros2_ws/install/task3/share/task3/local_setup.zsh
+[0.737s] -- Symlinking: /home/sachinb/ros2_ws/install/task3/share/task3/local_setup.dsv
+[0.743s] -- Symlinking: /home/sachinb/ros2_ws/install/task3/share/task3/package.dsv
+[0.749s] -- Symlinking: /home/sachinb/ros2_ws/install/task3/share/ament_index/resource_index/packages/task3
+[0.757s] -- Symlinking: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/task3Config.cmake
+[0.763s] -- Symlinking: /home/sachinb/ros2_ws/install/task3/share/task3/cmake/task3Config-version.cmake
+[0.769s] -- Symlinking: /home/sachinb/ros2_ws/install/task3/share/task3/package.xml
+[0.777s] Invoked command in '/home/sachinb/ros2_ws/build/task3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sachinb/ros2_ws/install/task1:/opt/ros/humble /usr/bin/cmake --install /home/sachinb/ros2_ws/build/task3

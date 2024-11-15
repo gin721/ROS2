@@ -10,7 +10,7 @@ public:
         subscription_ = this->create_subscription<sensor_msgs::msg::Joy>("/joy", 10, std::bind(&Node1::callback, this, std::placeholders::_1));
     }
 private:
-    void callback(const sensor_msgs::msg::Joy::SharedPtr msg) const{
+    void callback(const sensor_msgs::msg::Joy::SharedPtr msg) {
 
         geometry_msgs::msg::Twist twist;
 
